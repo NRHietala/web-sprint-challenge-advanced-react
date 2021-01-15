@@ -10,6 +10,8 @@ export default class PlantList extends Component {
     }
   }
 
+  // CodeGrade test1
+
   componentDidMount() {
     axios
     .get('http://localhost:3333/plants')
